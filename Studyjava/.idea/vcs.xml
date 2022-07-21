@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../../../java基础/课件/U1-2.Java面向对象程序设计" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day05" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day06" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/testGit" vcs="Git" />
+  </component>
+</project>
