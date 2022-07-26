@@ -1,6 +1,6 @@
 package com.banyuan.java2;
 
-public class Pet {
+public abstract class Pet {
 //私有化的内容是不能被继承的
     private  String name;
     private int health;
@@ -47,8 +47,8 @@ public class Pet {
     }
 
 
-    public  void show(){
-        System.out.println("name:"+name+",health:"+health+",love:"+love);
-    }
+    public abstract   void show();//{
+        //System.out.println("name:"+name+",health:"+health+",love:"+love);
+    //}
 
 }

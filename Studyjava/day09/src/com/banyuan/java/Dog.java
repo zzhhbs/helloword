@@ -1,6 +1,6 @@
 package com.banyuan.java;
 
-
+import  com.banyuan.java2.Pet;
 
 public class Dog  extends Pet {
 
@@ -16,7 +16,7 @@ public class Dog  extends Pet {
     }
 
     public Dog(String name, int health, int love, String strain) {
-            super(name,health,love);
+            //super(name,health,love);
        /* this.name = name;
         this.health = health;
         this.love = love;*/
@@ -35,9 +35,9 @@ public class Dog  extends Pet {
 
 
     public  void show(){
-        super.show();
-        super.a=12;
-        System.out.println("strain"+strain+a);
+       // super.show();
+        //super.a=12;
+       // System.out.println("strain"+strain+a);
     }
 
 
@@ -60,7 +60,7 @@ public class Dog  extends Pet {
    * */
    public void method(){
        //System.out.println("name:"+name);
-       System.out.println("a:"+a);
+       //System.out.println("a:"+a);
        System.out.println("b:"+b);
        System.out.println("c:"+c);
    }
