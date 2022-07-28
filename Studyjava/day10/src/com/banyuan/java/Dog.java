@@ -5,7 +5,7 @@ package com.banyuan.java;
 *   为什么需要用多态呢？
 *    简化代码，测试的时候也是只需要改变具体的子类类名就可以
 *
-*
+*   一定是在继承的情况下
 *
 *
 * */
@@ -41,6 +41,11 @@ public class Dog  extends  Pet{
 
         setHealth(getHealth()+10);
         System.out.println("狗狗生病去医院 打针吃药.....");
+    }
+
+    public void playFei(){
+        setHealth(getHealth()-5);
+        System.out.println("狗狗玩飞盘...");
     }
 
 }

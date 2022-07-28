@@ -31,5 +31,10 @@ public class Penguin  extends  Pet{
         System.out.println("企鹅生病睡觉疗养.....");
     }
 
+    public void swimming(){
+        setHealth(getHealth()-10);
+        System.out.println("企鹅游泳。。。");
+    }
+
 
 }

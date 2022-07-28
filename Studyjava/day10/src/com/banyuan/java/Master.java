@@ -7,6 +7,21 @@ package com.banyuan.java;
 public class Master {
 
 
+
+    /*带宠物去玩的方法*/
+    public void play(Pet pet){
+        /*如果想调用子类特有的方法  需要判断传入的参数是什么 然后向下转型*/
+        if(pet instanceof  Dog){
+            Dog dog=(Dog)pet;
+            dog.playFei();
+        }else if(pet instanceof  Penguin){
+            Penguin penguin =(Penguin) pet;
+            penguin.swimming();
+        }
+    }
+
+
+
     public void toHospital(Pet pet){
         if(pet.getHealth()<60){
             /*非健康状态 带gougou去医院*/

@@ -4,6 +4,15 @@ public class TestPet {
     public static void main(String[] args) {
 
         Master master = new Master();
+
+        /*测试主人带宠物出去玩的方法*/
+        Pet pet = new Penguin();
+        master.play(pet);
+
+
+
+
+
         /*
         *  抽象类是不可以创建对象的的
         * 如何让其表示指向的某个具体的宠物呢
@@ -11,10 +20,10 @@ public class TestPet {
         * 对象的引用指向子类的实例
         *
         * */
-        Pet pet = new Penguin();
+       /* Pet pet = new Penguin();
         pet.setHealth(50);
         master.toHospital(pet);
-        System.out.println(pet.getHealth());
+        System.out.println(pet.getHealth());*/
 
 
 
