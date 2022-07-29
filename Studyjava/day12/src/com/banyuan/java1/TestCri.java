@@ -39,6 +39,7 @@ import java.util.Scanner;
 *
 *       exit(int status)  强制终止程序结束
 *
+*       如果一个方法异常是上抛没有处理，那么在调用方法的时候需要处理
 *
 *
 *
