@@ -13,11 +13,13 @@ public class TestDog {
         Dog yaya = new Dog("亚亚","藏獒");
         Dog meimei = new Dog("美美","拉布拉多");
 
-        List list = new ArrayList<>();
+        List<Dog> list = new ArrayList<>();
         /*add（Object） 增加 对象*/
         list.add(ouou);
         list.add(feifei);
         list.add(yaya);
+    /*    list.add("abc");
+        list.add(12);*/
 
         /*size() 查看长度*/
 

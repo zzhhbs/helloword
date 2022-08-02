@@ -8,10 +8,16 @@ import java.util.Set;
 public class TestMap {
     public static void main(String[] args) {
 
-        Map map = new HashMap();
+        Map<String,String> map = new HashMap();
+
+
+        Dog ouou = new Dog("欧欧","吉娃娃");
+        Dog feifei = new Dog("菲菲","德牧");
         map.put("CN","中国");
         map.put("JP","日本");
         map.put("USA","美国");
+       // map.put("dog",ouou);
+
 
         System.out.println(map.size());
         String str= (String)map.get("CN");
